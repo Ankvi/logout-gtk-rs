@@ -1,0 +1,10 @@
+[
+    {
+        "text": "test",
+        "icon": "some-icon",
+        "operation": {
+            "exec": "notify-send",
+            "args": ["'test from logout-gtk'"]
+        }
+    }
+]

@@ -1,0 +1,10 @@
+[package]
+name = "logout-gtk-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { version = "0.9.0", package = "gtk4", features = ["v4_14"] }
+homedir = "0.3.3"
+serde = { version = "1.0" , features = ["derive"]}
+serde_json = { version = "1.0" }
